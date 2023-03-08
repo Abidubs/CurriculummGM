@@ -1,0 +1,155 @@
+@font-face {
+    font-family: 'cattieregular';
+    src: url('cattieregular-eabg8-webfont.woff2') format('woff2'),
+        url('cattieregular-eabg8-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: rgb(46, 62, 58);
+}
+
+.name {
+    width: 100%;
+    height: 200px;
+    background: #03191E;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.content{
+    margin-left:  10px;
+
+}
+.imagen{
+    width: 20%;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imagengato{
+    width: 12.5rem;
+    height: 10rem;    
+    border-radius: 10%;
+
+}
+ 
+
+.p1 {
+    color: #E0E1DD;
+    font-family: "cattieregular";
+    font-weight: bolder;
+    font-size: 50px;
+    margin-top:50px;
+    margin-bottom: 0px;
+}
+
+.p2 {
+    font-size: 20px;
+    font-family: 'Roboto Mono', monospace;
+    color: #E0E1DD;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    margin-left: 15px;
+}
+
+.info{
+    width: 90%;
+    height: auto;
+    background: rgb(82, 89, 92);
+    margin:5% auto;
+    padding: 10px;
+    border-radius: 20px;
+}
+     
+.info .tituloseccion{
+    color: rgb(233, 251, 180);
+    font-family: 'Roboto Mono', monospace;
+    font-size: x-large;
+    text-align: center;
+    font-weight: bold;
+    border-bottom: 2px #E4FFE1 dashed;
+}
+
+.info .titulonombre{
+    color: rgb(233, 251, 180);
+    font-family: 'Roboto Mono', monospace;
+    font-weight: bolder;
+    font-size: medium;
+    display: inline;
+
+}
+
+.info .informacion{
+    color: #e8e6e3;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: normal;
+    font-size: large;
+    display: inline;
+}
+
+.botones{
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.boton{
+    height: 40px;
+    width: 200px;
+    border-radius: 5px; 
+    background-color: rgb(82, 89, 92);
+    color: rgb(233, 251, 180);
+    font-family: 'Roboto Mono', monospace;
+    border-color: transparent;
+    font-size: 20px;
+}
+
+.boton:hover{
+    cursor: pointer;
+    height: 40px;
+    width: 200px;
+    border-radius: 5px; 
+    background-color: rgb(150, 156, 158);
+    color: rgb(233, 251, 180);
+    font-family: 'Roboto Mono', monospace;
+    border-color: transparent;
+    font-size: 20px;
+}
+
+.infoExtra{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(113, 120, 122);
+    width: 200px;
+    border-radius: 5px;
+}
+
+.infoExtra2{
+    margin: 10px;
+}
+
+.infoExtra2 .informacion{
+    color: #e8e6e3;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.infoContacto{
+    display: none; 
+}
+
+.infoConocimientos{
+    display: none; 
+}
+
+.infoVirtudes{
+    display: none; 
+}
